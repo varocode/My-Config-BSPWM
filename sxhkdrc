@@ -58,6 +58,12 @@ super + alt + t
 super + alt + o
 	tdrop -a -w 70% -h 35% -y 0 -x 15%  --class scratch alacritty --class=scratch
 
+
+# Scratchpad con Kitty
+super + alt + f
+    tdrop -a -w 50% -h 80% -y 0% -x 50% --class scratch kitty --class=scratch
+
+
 # Power off, Reboot, Log out, Lockscreen, kill an app
 ctrl + super + alt + {p,r,q,l,k}
 	{systemctl poweroff, systemctl reboot,bspc quit,physlock -d,xkill}
